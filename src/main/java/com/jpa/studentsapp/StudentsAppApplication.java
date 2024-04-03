@@ -26,7 +26,7 @@ public class StudentsAppApplication implements CommandLineRunner {
         productRepository.save(new product(null,"Smart phone",3200,32));
         List<product> products =productRepository.findAll();
         products.forEach(p->{
-            System.out.println(p.toString()+"jjjj");
+            System.out.println(p.toString()+"hello");
         });
 
 
